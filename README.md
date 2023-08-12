@@ -2,7 +2,7 @@
  Aplikasi MyNote ini adalah project yang dikembangkan untuk memenuhi Tugas UAS Matakuliah Aplikasi Komputasi Bergerak (AKB).  <br>
  10120150 - IF4 dari Program Studi Teknik Informatika UNIKOM.<br>
 # Teknologi Yang Digunakan
-  <table style="border:0;">
+  <table>
   <tr>
     <td>Bahasa Pemrograman</td>
     <td>:</td>
