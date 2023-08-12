@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    Rahmat - 10120150 - IF4-->
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/baseline_info_24"
+        android:title="@string/title_info"/>
+
+    <item
+        android:id="@+id/note"
+        android:icon="@drawable/baseline_sticky_note_2_24"
+        android:title="@string/title_note"/>
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/title_profile"/>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/baseline_logout_24"
+        android:title="@string/title_logout"/>
+</menu>

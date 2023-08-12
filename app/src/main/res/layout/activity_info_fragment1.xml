@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    Rahmat - 10120150 - IF4-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.info.InfoFragment1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.info.InfoFragment1">
+
+        <TextView
+            android:id="@+id/txtJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="INFORMASI APLIKASI"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/txtJudul"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/txtinfo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="MyNote ini dibuat untuk memenuhi Tugas UAS Aplikasi Komputasi Bergerak"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtinfo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtinfo1"
+            android:text=" "
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtinfo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtinfo2"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Aplikasi Catatan ini dapat menambah, mengubah, dan menghapus catatan menggunakan Realtime-Database."
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtinfo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtinfo3"
+            android:paddingTop="10dp"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtinfo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtinfo4"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text=" ~ 10120150 Rahmat ~"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="Swipe untuk ke halaman selanjutnya >>"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
