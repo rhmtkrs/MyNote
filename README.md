@@ -4,4 +4,4 @@
 # Fitur
  - Login menggunakan Firebase Authentication (Support Login Google) <br>
  - CRUD Catatan/Notes menggunakan Firebase Realtime Database <br>
- - Firebase Notification <br>
+ - Firebase Notification  / FCM <br>
