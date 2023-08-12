@@ -19,32 +19,44 @@
             app:srcCompat="@drawable/profile2" />
 
         <TextView
+            android:id="@+id/txtNim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10120150"
+            android:layout_below="@+id/fotoProfile"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp"
+            android:textSize="16dp"/>
+
+        <TextView
             android:id="@+id/txtNama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Rahmat"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/fotoProfile"
-            android:paddingTop="15dp"/>
-
-        <TextView
-            android:id="@+id/txtNim"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="10120150"
-            android:layout_below="@+id/txtNama"
-            android:layout_centerHorizontal="true"
-            android:paddingTop="10dp"/>
+            android:layout_below="@+id/txtNim"
+            android:paddingTop="10dp"
+            android:textSize="16dp"/>
 
         <TextView
             android:id="@+id/txtKelas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="IF-4"
-            android:layout_below="@+id/txtNim"
+            android:layout_below="@+id/txtNama"
             android:layout_centerHorizontal="true"
-            android:paddingTop="10dp"/>
+            android:paddingTop="10dp"
+            android:textSize="16dp"/>
 
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rahmat.karis@gmail.com"
+            android:layout_below="@+id/txtKelas"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp"
+            android:textSize="16dp"/>
 
 
         <Button
